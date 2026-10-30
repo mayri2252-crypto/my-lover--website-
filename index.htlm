@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sorry My Love 💗</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffd6e7, #fff0f5);
+    overflow: hidden;
+}
+
+.box {
+    background: white;
+    width: 80%;
+    max-width: 450px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+h1 {
+    color: #ff4f81;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+button {
+    border: none;
+    padding: 13px 25px;
+    margin: 8px;
+    border-radius: 25px;
+    background: #ff6f9c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff3f78;
+}
+
+#message {
+    display: none;
+    color: #ff4f81;
+    font-size: 20px;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h1>🥺 Sorry My Love 💗</h1>
+
+    <p>
+        စိတ်မဆိုးတော့နဲ့နော် 🥺<br>
+        ကိုယ့်ဘက်က မှားခဲ့ရင် တောင်းပန်ပါတယ်။<br>
+        မင်းကို စိတ်မကောင်းဖြစ်စေချင်လို့ မဟုတ်ပါဘူး။ 💕
+    </p>
+
+    <button onclick="showMessage()">ပြန်ချစ်ပေးမလား? 💗</button>
+
+    <div id="message">
+        Yayyy! 🥰💗<br>
+        အရမ်းချစ်တယ်နော် ❤️
+    </div>
+</div>
+
+<script>
+function showMessage() {
+    document.getElementById("message").style.display = "block";
+}
+</script>
+
+</body>
+</html>
